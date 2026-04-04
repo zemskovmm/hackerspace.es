@@ -1,0 +1,102 @@
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 50;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.navbar.scrolled {
+  background: rgba(10, 10, 10, 0.9);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 255, 136, 0.1);
+}
+
+.navbar__inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar__logo {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  text-decoration: none;
+}
+.navbar__logo .muted { transition: color 0.2s; }
+.navbar__logo:hover .muted { color: var(--neon); }
+
+/* Desktop links */
+.navbar__links {
+  display: none;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  .navbar__links { display: flex; }
+}
+.navbar__links a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar__links a:hover { color: var(--neon); }
+
+.navbar__cta {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--neon);
+  color: var(--neon) !important;
+  font-weight: 700;
+  transition: background 0.2s, color 0.2s !important;
+}
+.navbar__cta:hover {
+  background: var(--neon);
+  color: var(--bg) !important;
+}
+
+/* Mobile toggle */
+.navbar__toggle {
+  display: flex;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0;
+  transition: color 0.2s;
+}
+.navbar__toggle:hover { color: var(--neon); }
+@media (min-width: 768px) {
+  .navbar__toggle { display: none; }
+}
+
+/* Mobile menu */
+.navbar__mobile {
+  background: var(--surface);
+  border-top: 1px solid rgba(0, 255, 136, 0.1);
+  padding: 1rem 1.5rem;
+}
+.navbar__mobile ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+.navbar__mobile a {
+  display: block;
+  padding: 0.25rem 0;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar__mobile a:hover { color: var(--neon); }
