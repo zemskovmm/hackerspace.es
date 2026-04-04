@@ -45,6 +45,19 @@ npm run build   # outputs to dist/
 npm run preview # preview the production build
 ```
 
+### Deployment
+
+The site deploys automatically to **GitHub Pages** on every push to `main` via `.github/workflows/deploy.yml`. No manual steps needed.
+
+The live URL will be: `https://zemskovmm.github.io/hackerspace.es/`
+
+To enable it the first time:
+1. Go to **Settings → Pages** in the GitHub repo
+2. Set **Source** to `GitHub Actions`
+3. Push to `main` — the workflow handles the rest
+
+The build automatically sets the correct base path (`/hackerspace.es/`) when running in GitHub Actions, and falls back to `/` for local development.
+
 ---
 
 ## Stack
