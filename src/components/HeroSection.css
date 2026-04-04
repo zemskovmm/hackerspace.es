@@ -1,0 +1,17 @@
+.hero-glow {
+  background: radial-gradient(circle, rgba(0, 255, 136, 0.06) 0%, transparent 70%);
+}
+
+.hero-heading-neon {
+  text-shadow:
+    0 0 30px rgba(0, 255, 136, 0.4),
+    0 0 60px rgba(0, 255, 136, 0.2);
+}
+
+.hero-heading-orange {
+  text-shadow: 0 0 30px rgba(255, 107, 53, 0.4);
+}
+
+.hero-cta-primary {
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
