@@ -83,8 +83,6 @@ const mobileOpen = ref(false);
 
 const links = [
     { href: "#about", label: "nosotros" },
-    { href: "#events", label: "eventos" },
-    { href: "#projects", label: "proyectos" },
     { href: "#contact", label: "contacto" },
 ];
 
