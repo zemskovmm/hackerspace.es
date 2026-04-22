@@ -9,33 +9,32 @@
             <div class="about__grid">
                 <div class="about__mission">
                     <p>
-                        <span class="neon">Hackerspace.es</span> es el punto de
-                        encuentro de la comunidad maker y hacker en España. Un
-                        espacio donde la curiosidad no tiene límites y el
-                        conocimiento se comparte libremente.
+                        <span class="neon">Hackerspace.es</span> is Spain’s
+                        first dedicated security hackerspace on a mission to
+                        bring all people who work, study or just love security
+                        together.
                     </p>
                     <p>
-                        Organizamos talleres, hackatones, charlas técnicas y
-                        encuentros donde makers, desarrolladores, artistas
-                        digitales y entusiastas de la tecnología se reúnen para
-                        aprender, crear y colaborar.
+                        Because hackers need hugs too, we’ve built a high-trust
+                        environment with
+                        <span class="orange">zero fees and zero barriers.</span>
                     </p>
                     <p>
-                        Creemos en el <span class="orange">open source</span>,
-                        el conocimiento libre y la cultura DIY. Si tienes
-                        curiosidad por la tecnología, aquí tienes tu hogar.
+                        Here,
+                        <span class="orange">ISO27001 corporate engineers</span>
+                        share coffee with self-taught outcasts,
+                        <span class="orange">AI-security researchers</span>
+                        debug alongside
+                        <span class="neon">ex-VirusTotal alumni</span>, and
+                        digital nomads find a home with open-source veterans.
                     </p>
-
-                    <div class="about__values">
-                        <div
-                            v-for="value in values"
-                            :key="value.label"
-                            class="about__value"
-                        >
-                            <strong>{{ value.label }}</strong>
-                            <span> — {{ value.desc }}</span>
-                        </div>
-                    </div>
+                    <p>
+                        We are a bilingual, all-inclusive collective that values
+                        a deep-dive exploit just as much as a monthly cinema
+                        night. Whether you’re here to rewrite the kernel or just
+                        to find your people:
+                    </p>
+                    <p>Welcome home! 🫂</p>
                 </div>
 
                 <div class="about__stats">
@@ -58,20 +57,10 @@
 <script setup>
 import "./AboutSection.css";
 
-const values = [
-    { label: "Open Source", desc: "Todo lo que hacemos es libre y abierto" },
-    {
-        label: "Comunidad",
-        desc: "Crecemos juntos, compartimos el conocimiento",
-    },
-    { label: "DIY", desc: "Si no existe, lo construimos" },
-    { label: "Inclusivo", desc: "Bienvenido quien sea, venga de donde venga" },
-];
-
 const stats = [
-    { value: "300+", label: "miembros activos", color: "neon" },
-    { value: "50+", label: "proyectos en marcha", color: "orange" },
-    { value: "120+", label: "eventos al año", color: "neon" },
-    { value: "5+", label: "años de comunidad", color: "orange" },
+    { value: "500", label: "people across platforms", color: "neon" },
+    { value: "10+", label: "events/year", color: "orange" },
+    { value: "10+", label: "Allied Communities", color: "neon" },
+    { value: "0", label: "Access Fees", color: "orange" },
 ];
 </script>

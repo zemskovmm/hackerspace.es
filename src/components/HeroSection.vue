@@ -23,10 +23,10 @@
             </div>
 
             <p>
-                Una comunidad de <span class="neon">hackers</span>, makers,
-                desarrolladores y creadores en España. Construimos, aprendemos y
-                colaboramos juntos.
+                A NEW COMMUNITY OF <span class="neon">HACKERS</span> AND CYBER
+                SECURITY ENTHUSIASTS
             </p>
+            <p>BASED IN MALAGA, SPAIN</p>
 
             <div class="hero__ctas">
                 <a href="#contact" class="btn-primary">&gt; Únete ahora</a>
@@ -52,11 +52,12 @@ import "./HeroSection.css";
 import { ref, onMounted, onUnmounted } from "vue";
 
 const phrases = [
-    "Hackers. Makers. Comunidad.",
-    "Abre. Comparte. Construye.",
-    "Open Source. Open Mind.",
-    "Crea. Aprende. Repite.",
-    "Hardware. Software. Cultura.",
+    "A Warm Cyber Community",
+    "Open Intelligence Exchange",
+    "Probe, Pivot, Pioneer",
+    "Universal Logic Only",
+    "Grit, Wit, Vision",
+    "Hackers Need Hugs",
 ];
 
 const displayText = ref("");
