@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar" :class="{ scrolled }">
         <div class="navbar__inner">
-            <a href="#hero" class="navbar__logo">
+            <a href="/" class="navbar__logo">
                 <span class="neon">hs</span>2<span class="muted">
                     { hackerspace.es }</span
                 >
