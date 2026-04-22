@@ -30,7 +30,6 @@
 
             <div class="hero__ctas">
                 <a href="#contact" class="btn-primary">&gt; Únete ahora</a>
-                <a href="#projects" class="btn-outline">&gt; Ver proyectos</a>
             </div>
 
             <div class="hero__scroll">

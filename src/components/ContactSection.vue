@@ -2,7 +2,7 @@
     <section class="contact" id="contact">
         <div class="container">
             <div class="contact__header">
-                <small>// 04</small>
+                <small>// 02</small>
                 <h2><span class="neon">join</span>_us()</h2>
                 <p>
                     We don't have a physical location yet but catch up with the
