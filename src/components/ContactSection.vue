@@ -50,10 +50,8 @@
         </div>
 
         <footer>
-            <div>
-                <span class="neon">hs</span>2<span class="muted">
-                    { hackerspace.es }</span
-                >
+            <div class="footer__brand">
+                <img src="/logo_anchor.png" alt="hs2" class="footer-logo" /><span class="muted">{ hackerspace.es }</span>
             </div>
             <small
                 >&copy; {{ new Date().getFullYear() }} Hackerspace.es — CC BY-SA

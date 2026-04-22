@@ -168,3 +168,12 @@ footer small {
   font-size: 0.75rem;
   color: var(--muted);
 }
+.footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-logo {
+  height: 1.75rem;
+  width: auto;
+}

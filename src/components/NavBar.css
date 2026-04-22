@@ -26,6 +26,13 @@
   font-weight: 700;
   letter-spacing: -0.025em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navbar__logo-img {
+  height: 1.75rem;
+  width: auto;
 }
 .navbar__logo .muted { transition: color 0.2s; }
 .navbar__logo:hover .muted { color: var(--neon); }

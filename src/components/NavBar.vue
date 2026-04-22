@@ -2,9 +2,7 @@
     <nav class="navbar" :class="{ scrolled }">
         <div class="navbar__inner">
             <a href="/" class="navbar__logo">
-                <span class="neon">hs</span>2<span class="muted">
-                    { hackerspace.es }</span
-                >
+                <img src="/logo_anchor.png" alt="hs2" class="navbar__logo-img" /><span class="muted">{ hackerspace.es }</span>
             </a>
 
             <ul class="navbar__links">
